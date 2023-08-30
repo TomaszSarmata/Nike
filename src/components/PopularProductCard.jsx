@@ -1,5 +1,4 @@
 import { star } from "../assets/icons";
-import { products } from "../constants";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
