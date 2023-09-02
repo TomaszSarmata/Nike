@@ -36,30 +36,6 @@ const SuperQuality = () => {
       </div>
     </section>
   );
-
-  return (
-    <section id="superQuality" className="grid lg:grid-cols-2 sm:grid-cols-1">
-      <div>
-        <h2 className="text-4xl font-semibold font-montserrat">
-          We Provide Your <span className="text-coral-red">Super Quality</span>{" "}
-          Shoes
-        </h2>
-        <p>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
-        </p>
-        <p>Our dedication to detail and excellence ensures your satisfaction</p>
-        <div className="flex flex-row justify-center items-center gap-3 bg-coral-red w-40 text-white font-palanquin py-3 px-4 rounded-full">
-          <button className="">Shop now</button>
-          <img src={arrowRight} alt="arrow" />
-        </div>
-      </div>
-      <div>
-        <img src={shoe8} alt="jordan air" />
-      </div>
-    </section>
-  );
 };
 
 export default SuperQuality;
