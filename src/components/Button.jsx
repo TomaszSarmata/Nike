@@ -1,6 +1,14 @@
-function Button({ label, iconURL }) {
+function Button({ label, iconURL, backgroundColor, textColor, borderColor }) {
   return (
-    <button className="bg-coral-red text-white px-7 py-4 rounded-full flex justify-center items-center  gap-2 border border-coral-red font-montserrat text-lg leading-none">
+    <button
+      className={` px-7 py-4  flex justify-center items-center rounded-full  gap-2 border  font-montserrat text-lg leading-none
+    ${
+      backgroundColor
+        ? `${backgroundColor} ${textColor} ${borderColor}`
+        : "bg-coral-red text-white  border-coral-red"
+    }
+    `}
+    >
       {label}
       {iconURL && (
         <img
